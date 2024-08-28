@@ -58,7 +58,7 @@ algorand.send.payment(
 group_txn = algorand.new_group()
 
 group_txn.add_asset_opt_in(
-      AssetOptionParams(
+      AssestOptionParams(
           sender=receiver_acct.address,
           asset_id=asset_id
       )
